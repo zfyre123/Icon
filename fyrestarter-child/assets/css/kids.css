@@ -1,0 +1,84 @@
+#page, #hero {
+  overflow: visible;
+}
+#hero .banner-img {
+  padding-top: 56%;
+  max-height: 800px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+#kids-top h1 {
+  margin-bottom: 40px;
+}
+.hero-dots {
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    transform: translateY(-50%);
+    min-width: 100%;
+}
+#hero:after {
+  content: '';
+  background-color: #617052;
+  position: absolute;
+  top: 0;
+  height: 30%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.kids-row {
+    margin-bottom: 120px;
+}
+.btns .btn {
+  margin: 0 10px;
+}
+
+/*#give {
+  padding: 260px 0 360px;
+}
+#give .arrows {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.bottom-img {
+  padding-top: 100%;
+  border-radius: 50%;
+}
+
+#give .btn,
+#bottom-section .btn {
+  margin-top: 140px;
+}
+
+*/
+
+
+@media(max-width: 767px) {
+  .kids-row {
+      margin-bottom: 80px;
+  }
+  #page {
+      padding: 120px 0;
+  }
+  main ul {
+    padding-left: 28px;
+  }
+  .btns {
+    flex-direction: column;
+  }
+  .btns .flex-btn {
+    margin-bottom: 20px !important;
+  }
+  .btns .flex-btn:last-child {
+    margin-bottom: 0 !important;
+  }
+  #kids-top {
+      padding-bottom: 70px;
+  }
+}

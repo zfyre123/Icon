@@ -1,0 +1,217 @@
+/* FONTS.CSS */
+
+
+.book-reg {
+	font-family: bookmania, serif;
+	font-weight: 400;
+	font-style: normal;	
+}
+.book-bold {
+	font-family: bookmania, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.book-i {
+	font-family: bookmania, serif;
+	font-weight: 400;
+	font-style: italic;
+}
+.futura-reg {
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.futura-med {
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+.futura-bold {
+	font-family: futura-pt, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+p,
+body {
+	font-family: bookmania, serif;
+	color: #363636;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h3,
+h4 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+h1,
+h2 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
+	font-style: normal;	
+}
+
+
+/* FONT COLORS */
+
+.white,
+.wht-txt,
+.wht-txt p,
+.wht-txt h2 {
+	color: #ffffff;
+}
+.grn-txt {
+	color: #617052;
+}
+.navy-txt {
+	color: #1C2933;
+}
+.sky-txt {
+	color: #D4E3E8;
+}
+.lake-txt {
+	color: #384F5C; 
+}
+.red-txt {
+	color: #D9381F;
+}
+
+/* FONT SIZES */
+
+p.small,
+.small p {
+	font-size: 18px;
+	line-height: 25px;
+}
+p,
+ul,
+ol {
+	font-weight: normal;
+	color: #363636;
+	font-size: 26px;
+	line-height: 37px;
+	margin-bottom: 20px;
+}
+p a, li a {
+	color: #D9381F;
+}
+.home h1 {
+	font-size: 120px;
+}
+h1 {
+	font-size: 100px;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 1.15;
+}
+h2 {
+	font-size: 90px;
+}
+h3 {
+	font-size: 26px;
+	font-size: 40px;
+	font-family: bookmania, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+	line-height: 1.35;
+}
+
+
+h2,
+h3 {
+	margin-bottom: 20px;
+	margin-top: 0;
+	line-height: 1.15;
+}
+
+
+
+/* FONT STYLES */
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.underlined,
+#fyre a.underlined {
+	text-decoration: underline;
+}
+
+#fyre a {
+	outline: none;
+}
+
+#fyre main p a {
+	color: #C67D5A;
+}
+
+#fyre a {
+	cursor: pointer !important;
+	transition: all 0.3s ease !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none !important;
+}
+
+
+/* responsive */
+
+
+@media (max-width: 1399px) {
+
+}
+
+@media (max-width: 1199px) {
+	h1, h2 {
+		font-size: 80px;
+	}
+}
+
+@media (max-width: 991px) {
+	h1, h2 {
+	    font-size: 65px;
+	}
+}
+
+@media (max-width: 767px) {
+	p,
+	ul,
+	ol {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	h1, h2 {
+	    font-size: 55px;
+	}
+	h3 {
+		font-size: 30px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 575px) {
+	h1, h2 {
+	    font-size: 40px;
+	}
+	h3 {
+		font-size: 28px;
+	}
+}
+

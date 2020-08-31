@@ -1,0 +1,1 @@
+<?php echo do_shortcode('[sc_get_posts_via_rest]'); ?>

@@ -1,0 +1,289 @@
+
+#hero {
+    padding-bottom: 125px;
+}
+.line-holder {
+    position: relative;
+}
+.line-holder .line {
+    background-color: #FFFFFF;
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#hero .banner-img {
+    padding-top: 56%;
+    max-height: 800px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+#hero .banner-img img {
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+.hero-shape {
+    position: absolute;
+    height: 100%;
+    bottom: -125px;
+    width: 79%;
+    background-color: #1C2933;
+    left: -125px;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translateZ(-1px);
+    -ms-transform: translateZ(-1px);
+    -moz-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+}
+#hero:after {
+  content: '';
+  background-color: #d4e3e8;
+  position: absolute;
+  top: 0;
+  height: 50%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+#hero .container {
+  padding-right: 0;
+}
+
+
+#sundays {
+  padding: 275px 0 0;
+  margin-bottom: 170px;
+}
+#sundays .icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+#sundays .middle-content {
+    margin-bottom: 460px;
+    max-width: 100%;
+    min-width: 625px;
+}
+#sundays .btns {
+    margin-top: 160px;
+}
+#sundays .btns .btn:nth-child(1) {
+      margin-right: 20px;
+  }
+
+
+#where {
+    z-index: 1;
+    overflow: visible;
+}
+/*#where::after {
+    height: calc(100% - 100px);
+    background-color: #617052;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    content: '';
+    bottom: 0;
+    transform: translateY(-50%);
+}*/
+#where .container {
+    margin: -200px 0;
+}
+#where h3 {
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+#where h3.book-reg {
+    margin: 10px 0 30px;
+}
+.location-img {
+    padding-top: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+.location-row {
+  margin-bottom: 30px;
+}
+.location-row:last-child {
+  margin-bottom: 0;
+}
+.end-content {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+
+.wht-bg {
+  background-color: #ffffff;
+}
+#kids {
+    margin-top: -50px;
+    padding: 360px 0 240px;
+}
+.kids-img {
+  padding-top: 73%;
+  max-height: 700px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.kids-img img {
+    position: absolute;
+    top: 0;
+    transform: translateY(calc(-100% + 40px));
+    left: -100px;
+}
+#kids .content-box {
+  padding: 100px 125px;
+}
+#kids .content-box .btn { 
+  margin-top: 40px;
+}
+.kids-row-2 h2 {
+  text-align: right;
+  margin-bottom: 60px;
+}
+.kids-row-2 {
+  margin-top: -340px;
+}
+
+
+
+
+
+@media(max-width: 1199px) {
+  .banner-img {
+      padding-top: 60%;
+  }
+  .hero-shape {
+      bottom: -80px;
+      left: -80px;
+  }
+  #hero {
+      padding-bottom: 80px;
+  }
+  #sundays .icon {
+      max-width: 450px;
+      bottom: 300px;
+  }
+  .kids-img {
+      min-width: calc(100% + 30px);
+  }
+  .kids-row-2 {
+      margin-top: -230px;
+  }
+  .kids-row-2 h2 {
+      margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 991px) {
+  .location-row:nth-child(2n+1) .location-img {
+    margin-bottom: 50px;
+    right: 60px;
+  }
+  .location-row:nth-child(even) .location-img {
+    margin-top: 50px;
+    left: 60px;
+  }
+  .location-row {
+      margin-bottom: 140px;
+  }
+  #where h3 {
+    font-size: 26px;
+  }
+  .kids-img {
+      min-width: calc(100% + 140px);
+      left: -285px;
+      padding-top: 67%;
+  }
+  .kids-img img {
+      position: absolute;
+      top: 0;
+      transform: translateY(calc(-100% + 40px));
+      left: 200px;
+  }
+  .kids-row-2 h2 {
+      margin-bottom: 20px;
+      width: 120px;
+      display: block;
+      margin-left: auto;
+      margin-right: 0;
+      text-align: right;
+  }
+  #kids .content-box {
+      padding: 60px 60px 90px 60px;
+  }
+  .hero-shape {
+      bottom: -35px;
+      left: -35px;
+  }
+  #hero {
+      padding-bottom: 35px;
+  }
+}
+
+@media(max-width: 767px) {
+  #sundays .icon {
+      max-width: 315px;
+      bottom: 380px;
+  }
+  #sundays .btns {
+      margin-top: 60px;
+  }
+  #sundays .btns .btn:nth-child(1) {
+      margin-bottom: 20px !important;
+  }
+  #sundays .middle-content {
+      margin-bottom: 140px;
+      max-width: 87%;
+      min-width: auto;
+  }
+  #sundays-top {
+      padding: 140px 0 80px;
+  }
+  #hero .banner-img {
+      margin-left: 60px;
+  }
+  #kids .content-box {
+      padding: 30px 30px 60px 30px;
+  }
+  #where h3 {
+    font-size: 20px;
+  }
+  .hero-shape {
+      bottom: -25px;
+      left: -25px;
+  }
+  #hero {
+      padding-bottom: 25px;
+  }
+  #sundays {
+      padding: 140px 0 0;
+  }
+  .kids-img img {
+      max-height: 70px;
+  }
+  .kids-row-2 {
+      margin-top: -150px;
+  }
+  #kids {
+      margin-top: -50px;
+      padding: 190px 0 70px;
+  }
+  .kids-img {
+      left: -235px;
+  }
+}

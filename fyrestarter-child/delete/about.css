@@ -1,0 +1,38 @@
+#about-top {
+    padding-bottom: 50px;
+    overflow: visible;
+    z-index: 1;
+}
+#about-top img {
+	border-radius: 50%;
+	margin-bottom: -80px;
+}
+#about-quote {
+    padding: 140px 0;
+}
+#about-quote h3 {
+    font-size: 46px;
+    letter-spacing: 0;
+    font-family: 'Jost-Regular';
+    line-height: 1.35;
+}
+
+
+
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 575px) {
+
+}
+
+
+
+
+

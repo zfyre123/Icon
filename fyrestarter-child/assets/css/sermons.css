@@ -1,0 +1,416 @@
+
+#sermons-top .lines {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(45%);
+}
+#sermons-top {
+    padding-bottom: 240px;
+    padding-top: 300px;
+    overflow: visible;
+}
+#sermons-top h1 {
+    margin-bottom: 190px;
+    position: relative;
+    z-index: 1;
+}
+
+.top-img {
+    padding-top: 100%;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 200px;
+}
+.top-img-overlay {
+	position: absolute;
+	top: -10%;
+	left: -45%;
+	background-color: #ffffff;
+	opacity: .6;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+#sermons-top h2 {
+    margin-bottom: 200px;
+}
+#sermons-top .btn {
+    margin-top: 80px;
+}
+.top-content {
+    z-index: 2;
+    position: relative;
+}
+
+
+#cta .content-box {
+  padding: 90px 125px;
+  width: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+#cta {
+  margin-top: -240px;
+  overflow: visible;
+}
+#cta .content-box .btn {
+    margin-top: 40px;
+}
+
+
+#current-sermon .btn {
+    margin: 0 10px;
+}
+.date-author {
+    margin-bottom: 80px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+#current-sermon {
+    padding: 300px 0;
+}
+
+
+#current-sermon iframe {
+    margin-top: 60px;
+}
+
+
+.series-inner {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.series-inner a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;    
+}
+.series-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.series-inner:hover .series-bg {
+    transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.series-item {
+    margin-bottom: 30px;
+}
+.series-item p a {
+    color: #363636 !important;
+}
+.series-item .red-txt {
+    font-size: 26px;
+}
+
+.grn-logo {
+  position: absolute;
+  top: -415px;
+  right: 0;
+}
+#leadership-podcast {
+  overflow: visible;
+  padding-top: 300px;
+}
+#leadership-podcast .dots {
+  position: absolute;
+  right: -45px;
+  z-index: 2;
+  top: -70px;
+}
+#leadership-podcast .content-box {
+	padding: 235px 125px 120px;
+	margin-top: -130px;
+	max-width: 740px;
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+}
+.leadership-podcast-img {
+    padding-top: 46%;
+    max-height: 650px;
+    position: relative;
+    z-index: 1;
+    max-width: 1100px;
+}
+#leadership-podcast .btns {
+    margin-top: 65px;
+    margin-bottom: 0;
+}
+#leadership-podcast .btns .flex-btn:last-child {
+    margin-right: 0;
+}
+#leadership-podcast .btns .flex-btn {
+    margin-right: 20px;
+}
+
+
+
+.podcast-inner {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.podcast-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    z-index: -1;
+}
+.podcast-slide:nth-child(2n+1) .podcast-inner h3 {
+    color: #617052;
+}
+.podcast-slide:nth-child(2n+1) .podcast-inner .overlay {
+    background-color: #ffffff;
+}
+.podcast-slide:nth-child(2n) .podcast-inner .overlay {
+    background-color: #617052;
+}
+.podcast-slide:nth-child(2) .podcast-inner h3 {
+    color: #ffffff;
+}
+.podcast-bg .overlay {
+    opacity: .7;
+}
+.podcasts-slider {
+  max-width: 980px;
+  margin: auto;
+}
+.podcast-slide {
+  padding: 0 10px;
+}
+.podcast-inner h3 {
+    margin: 0;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.podcast-inner a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.podcast-inner:hover .podcast-bg {
+    transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+    -o-transform:scale(1.05);
+}
+#fyre .podcasts-slider .slick-prev::before,
+#fyre .podcasts-slider .slick-next::before {
+    color: #fff !important;
+    opacity: 1;
+    font-size: 63px;
+}
+#fyre .podcasts-slider .slick-prev, #fyre .podcasts-slider .slick-next {
+    width: auto;
+    height: auto;
+}
+#fyre .podcasts-slider .slick-prev {
+    left: -60px;
+}
+#fyre .podcasts-slider .slick-next {
+    right: -60px;
+}
+
+
+
+.slider-controls ul {
+  height: 30px !important;
+  list-style: none !important;
+  margin: 0;
+}
+.slider-controls ul li:before {
+  display: none;
+}
+
+
+
+
+#bottom-section {
+    overflow: visible;
+}
+#bottom-section img {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media(max-width: 1499px) {
+    #sermons-top .lines {
+        left: -400px;
+    }
+}
+@media(min-width: 992px) {
+    .top-content {
+        min-width: 610px;
+    }
+}
+@media(max-width: 1199px) {
+    .series-inner {
+        height: 260px;
+    }
+    #sermons-top {
+        padding-top: 240px;
+    }
+      #sermons-top .lines {
+          left: -500px;
+      }
+      #cta .content-box {
+        margin-right: -55px;
+    }
+    #sermons-top h1 {
+        max-width: 500px;
+    }
+    #cta {
+        margin-top: -160px;
+    }
+    #leadership-podcast .btns {
+        flex-direction: column;
+    }
+    #leadership-podcast .btns .flex-btn:nth-child(1) {
+        margin-bottom: 20px;
+    }
+    #leadership-podcast .content-box {
+        padding-left: 80px;
+    }
+    .grn-logo {
+        right: 60px;
+        max-width: 360px;
+    }
+    .podcasts-slider {
+        margin: 0 40px;
+    }
+}
+@media(max-width: 991px) {
+    #sermons-top h1 {
+        margin-bottom: 50px;
+    }
+    #sermons-top {
+        padding-top: 144px;
+    }
+    .top-img {
+      margin-bottom: 50px;
+      right: -30px;
+    }
+    .top-img-overlay {
+      top: -2%;
+      left: -70%;
+    }
+    #cta .content-box {
+        width: 100vw;
+        margin: 0;
+        position: relative;
+        left: -30px;
+        padding: 90px 35px 120px;
+    }
+    .series-inner, .podcast-inner {
+        height: 260px;
+    }
+}
+
+@media(max-width: 767px) {
+    #fyre .podcasts-slider .slick-prev {
+        left: -20px;
+    }
+    #fyre .podcasts-slider .slick-next {
+        right: -20px;
+    }
+    #fyre .podcasts-slider .slick-prev::before, #fyre .podcasts-slider .slick-next::before {
+        font-size: 32px;
+    }
+    .podcasts-slider {
+        margin: 0 20px;
+    }
+    #current-sermon {
+        padding: 140px 0 70px;
+    }
+    #current-sermon .btn:last-child {
+        margin-bottom: 0 !important;
+    } 
+    #current-sermon .btn {
+        display: block;
+        max-width: 285px;
+        margin: auto;
+            margin-bottom: auto;
+        margin-bottom: 20px !important;
+    }
+    .grn-logo {
+        right: 20px;
+        max-width: 160px;
+        top: -200px;
+    }
+    .leadership-podcast-img {
+        width: calc(100vw);
+        padding-top: 52%;
+    }
+    #leadership-podcast .dots {
+        top: -35px;
+    }
+    #leadership-podcast .content-box {
+        padding: 90px 35px 90px;
+        padding-top: 200px;
+        left: 30px;
+        position: relative;
+    }
+    #leadership-podcast {
+        padding-top: 160px;
+    }
+    .grn-logo {
+        right: 40px;
+        max-width: 160px;
+        top: -200px;
+    }
+    #bottom-section img {
+        max-width: 90px;
+        top: -45px;
+    }
+    .series-item .red-txt {
+        font-size: 20px;
+    }
+}
+@media(max-width: 575px) {
+    .podcast-inner {
+        height: 240px;
+    }
+}
+
+
+
